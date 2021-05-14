@@ -97,7 +97,7 @@ namespace DogGo.Controllers
 
         private readonly IWalkerRepository _walkerRepo;
 
-        // ASPO.NET wil lgive usan instance of our Walker Repository. This is called "Dependency Injection"
+        // ASPO.NET wil lgive us an instance of our Walker Repository. This is called "Dependency Injection"
         public WalkersController(IWalkerRepository walkerRepository)
         {
             _walkerRepo = walkerRepository;
